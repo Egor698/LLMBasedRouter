@@ -17,9 +17,9 @@ class State(TypedDict):
     answer: str
     
 
-llm = ChatOpenAI(base_url='https://gatellm.ru/v1',
-                              api_key='sk-de3a41995e9714daefc75c77f027979445e1dbbd1bf8632c93981b4ed96acc9d',
-                              model='openai/gpt-4o-mini',
+llm = ChatOpenAI(base_url='',
+                              api_key='',
+                              model='',
                               temperature=0.4)
 
 
