@@ -43,4 +43,3 @@ def go_experiment():
         evaluators=[evaluate_assured_answer_accuracy, evaluator_classifications_accuracy]
     )
     
-go_experiment()
